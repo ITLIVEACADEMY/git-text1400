@@ -56,10 +56,20 @@ ul {
     color: #fff;
     font-size: 40px;
     font-weight: 700;
+    transition: .5s;
 }
 
 .text {
     color: yellow;
     font-size: 30px;
+    transition: .5s;
     
+}
+
+.title:hover {
+    color: yellow;
+}
+
+.title:hover ~ .text{
+    color: #fff;
 }
