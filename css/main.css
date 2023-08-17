@@ -18,7 +18,7 @@ ul {
 }
 .header {
     height: 100vh;
-    background: indigo;
+    background: greenyellow;
 }
 
 .header__nav {
@@ -63,7 +63,6 @@ ul {
     color: yellow;
     font-size: 30px;
     transition: .5s;
-    
 }
 
 .title:hover {
